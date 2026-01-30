@@ -562,8 +562,19 @@
     </section>
 
     <!-- ===== PRICING SECTION ===== -->
-    <section id="priser" class="py-16 md:py-24 bg-sand-50" aria-labelledby="pricing-heading">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="priser" class="py-16 md:py-24 bg-sand-50 relative overflow-hidden" aria-labelledby="pricing-heading">
+      <!-- Decorative concentric circles background -->
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none" aria-hidden="true">
+        <svg viewBox="0 0 800 800" fill="none" class="w-full h-full opacity-[0.07]">
+          <circle cx="400" cy="400" r="400" stroke="#1B4332" stroke-width="1"/>
+          <circle cx="400" cy="400" r="320" stroke="#1B4332" stroke-width="1"/>
+          <circle cx="400" cy="400" r="240" stroke="#1B4332" stroke-width="1"/>
+          <circle cx="400" cy="400" r="160" stroke="#1B4332" stroke-width="1"/>
+          <circle cx="400" cy="400" r="80" stroke="#1B4332" stroke-width="1"/>
+        </svg>
+      </div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <!-- Section Header -->
         <div class="text-center mb-6">
